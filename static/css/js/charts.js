@@ -70,13 +70,13 @@ function buildCharts(sample) {
     console.log(metaArray);
     var metaNumber = metaArray.filter(metaObj => metaObj.id == sample);
     console.log(metaNumber);
-  //  -- END DEL 3 -------------
+
 
     //  5. Create a variable that holds the first sample in the array.
     var sampleResult = sampleNumber[0];
     console.log(sampleResult.otu_ids);
 
-    // Deliverable 3 -----------  
+ 
     // 2. Create a variable that holds the first sample in the metadata array.
     var metaResult = metaNumber[0];
     console.log(metaResult);
@@ -148,7 +148,7 @@ function buildCharts(sample) {
         // 3. Use Plotly to plot the data with the layout.
         Plotly.newPlot('bubble', bubbleData, bubbleLayout); 
 
-        // ----Deliverable 3 ---------
+       
          
     // 4. Create the trace for the gauge chart.
     var gaugeData = [
