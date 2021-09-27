@@ -70,7 +70,7 @@ function buildCharts(sample) {
     console.log(metaArray);
     var metaNumber = metaArray.filter(metaObj => metaObj.id == sample);
     console.log(metaNumber);
-
+  //  -- END DEL 3 -------------
 
     //  5. Create a variable that holds the first sample in the array.
     var sampleResult = sampleNumber[0];
@@ -88,7 +88,7 @@ function buildCharts(sample) {
     var otu_label = sampleResult.otu_labels;
     var sample_value = sampleResult.sample_values;
 
-    //  Deliverable 3 
+    
     // 3. Create a variable that holds the washing frequency.
     var metaFreq = parseFloat(metaResult.wfreq);
     console.log(metaFreq);
@@ -190,7 +190,7 @@ init();
 
 
 
-
+// FIRST PART OF DELIVARABLE DID IT SEPARATE BECAUSE IT WAS SO CONFUSING
 
 // function init() {
 //   // Grab a reference to the dropdown select element
